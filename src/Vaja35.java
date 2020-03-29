@@ -34,7 +34,7 @@ public class Vaja35 implements ActionListener{
 	// statična metoda, ki se zažene ob začetku
 	public static void main(String[] args){
 
-		Vaja35 v = new Vaja35( args[0] );			
+		Vaja35 v = new Vaja35( "Naslov novega okna" );			
 		
 	}
 	
