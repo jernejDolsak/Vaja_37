@@ -103,7 +103,7 @@ public class Vaja35 implements ActionListener{
         ffRamPerModul.setBounds(zamikPoljaX, zamikPoljaY, 86, 20);
         ffRamPerModul.setColumns(10);
         // label
-        JLabel labelRAM = new JLabel("Količina RAM mod");
+        JLabel labelRAM = new JLabel("Količina RAM modulov");
         labelRAM.setBounds(zamikNazivX, zamikPoljaY, zamikPoljaX - 20, 14);
         labelRAM.setHorizontalAlignment(SwingConstants.RIGHT);
         okno.getContentPane().add(labelRAM);
@@ -124,7 +124,7 @@ public class Vaja35 implements ActionListener{
 		JTable table = new JTable( mt);
 		// ScrollPane - zato da je tabela scrollable in prikazuje glavo tabele
 	    JScrollPane scrlTbl = new JScrollPane( table );
-	    scrlTbl.setBounds(190, 130, 400, 200);
+	    scrlTbl.setBounds(190, 130, 600, 200);
 		
 		
 		okno.getContentPane().add( scrlTbl );
