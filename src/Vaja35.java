@@ -33,13 +33,9 @@ public class Vaja35 implements ActionListener{
 	
 	// statična metoda, ki se zažene ob začetku
 	public static void main(String[] args){
-		if (args.length > 0){
-			System.out.println("1. argument je tu: " + args[0]);
-			//objekt vaja35 sedaj lahko naložimao
-			Vaja35 v = new Vaja35( args[0] );			
-		}else{
-			System.out.println("Program je bil zagnan brez argumentov");
-		}
+
+		Vaja35 v = new Vaja35( args[0] );			
+		
 	}
 	
 	// konstruktor
